@@ -87,7 +87,7 @@ const App = () => {
         <div className="container-fluid">
             <div className="row h-auto justify-content-between align-items-center">
                 <div>
-                    <h1 className="m-2">Markdown Previewer</h1>
+                    <h1 className="m-2">Markdown Previewer</h1><i class="fas fa-moon"></i>
                 </div>
                 <div>
                     <a className="btn btn-primary" href={mdLink} download="asMarkdown.md">Save as .md</a>
