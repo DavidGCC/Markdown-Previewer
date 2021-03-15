@@ -82,13 +82,13 @@ const App = () => {
     React.useEffect(() => {
         makeMd(markdown);
         makeHtml(markdown);
-    }, [markdown]);
+    }, [markdown]); // eslint-disable-line
 
     return (
         <div className="container-fluid">
             <div className="row h-auto justify-content-between align-items-center">
                 <div>
-                    <h1 className="m-2">Markdown Previewer</h1><i class="fas fa-moon"></i>
+                    <h1 className="m-2">Markdown Previewer</h1>
                 </div>
                 <div>
                     <a className="btn btn-outline-dark" href={mdLink} download="asMarkdown.md"><i class="fab fa-markdown fa-lg"></i> Save as .md</a>
