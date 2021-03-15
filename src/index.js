@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+// import "font-awesome/css/font-awesome.min.css";
 import "./index.scss";
 
 import marked from "marked";
@@ -90,8 +91,8 @@ const App = () => {
                     <h1 className="m-2">Markdown Previewer</h1><i class="fas fa-moon"></i>
                 </div>
                 <div>
-                    <a className="btn btn-primary" href={mdLink} download="asMarkdown.md">Save as .md</a>
-                    <a className="btn btn-success m-2" href={htmlLink} download="asHtml.html">Save as .html</a>
+                    <a className="btn btn-primary" href={mdLink} download="asMarkdown.md"><i class="fab fa-markdown fa-lg"></i> Save as .md</a>
+                    <a className="btn btn-success m-2" href={htmlLink} download="asHtml.html"><i className="fab fa-html5 fa-lg"></i> Save as .html</a>
                 </div>
             </div>
             <div className="row">
